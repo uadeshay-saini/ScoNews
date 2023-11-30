@@ -18,7 +18,7 @@ const App = () => {
   const [progress, setProgress] = useState(0);
 
     return (
-      <BrowserRouter>
+      <BrowserRouter basename='/ScoNews'>
        <div >
         <NavBar/>
         <LoadingBar
